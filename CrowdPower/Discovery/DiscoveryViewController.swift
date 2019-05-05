@@ -40,7 +40,7 @@ private extension DiscoveryViewController {
         navigationController?.view.backgroundColor = .clear
         navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationController?.navigationBar.topItem?.title = "New Proposals"
+        navigationController?.navigationBar.topItem?.title = "Discover"
         
         // MARK: - TableView
         
