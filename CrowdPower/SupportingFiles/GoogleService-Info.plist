@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>600372317340-p51k10d0po3lt03057e7q435ta7i6vnp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.600372317340-p51k10d0po3lt03057e7q435ta7i6vnp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDF3m2bmgLP21uTaIZV8AwEaEJHkA0T5EU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>600372317340</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.poc.CrowdPower</string>
+	<key>PROJECT_ID</key>
+	<string>crowdpower-23515</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crowdpower-23515.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:600372317340:ios:f2f88b6436a62fbe</string>
+	<key>DATABASE_URL</key>
+	<string>https://crowdpower-23515.firebaseio.com</string>
+</dict>
+</plist>

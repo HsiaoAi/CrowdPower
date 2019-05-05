@@ -1,0 +1,6 @@
+framework module Pods_CrowdPower {
+  umbrella header "Pods-CrowdPower-umbrella.h"
+
+  export *
+  module * { export * }
+}
