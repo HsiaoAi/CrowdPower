@@ -16,7 +16,14 @@ class WatchViewController: UIViewController, StoryboardInit {
 
         setupUI()
     }
-
+    
+    @IBAction func tapMap(_ sender: UIButton) {
+        
+        let mapViewController = MapViewController.storyboardInit()
+        
+        present(mapViewController, animated: true, completion: nil)
+    }
+    
     func setupUI() {
         
         // MARK: - Navigation
@@ -27,6 +34,6 @@ class WatchViewController: UIViewController, StoryboardInit {
         navigationController?.view.backgroundColor = .clear
         navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationController?.navigationBar.topItem?.title = "Watch Progress"
+        navigationController?.navigationBar.topItem?.title = "In Progress"
     }
 }

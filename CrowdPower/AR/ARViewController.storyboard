@@ -20,23 +20,49 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2v-p2-gqb">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ses-cJ-cHA">
+                                <rect key="frame" x="20" y="64" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Dk3-NK-FJ7"/>
+                                    <constraint firstAttribute="width" constant="40" id="lGJ-KF-N8d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapCloseButton:" destination="St7-Hd-dos" eventType="touchUpInside" id="ofO-k2-dy7"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1F3-zz-R9A">
+                                <rect key="frame" x="0.0" y="134" width="414" height="728"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="74O-3b-rhL" firstAttribute="bottom" secondItem="S2v-p2-gqb" secondAttribute="bottom" id="6EG-zv-lOy"/>
                             <constraint firstItem="S2v-p2-gqb" firstAttribute="top" secondItem="74O-3b-rhL" secondAttribute="top" id="E09-rR-oNf"/>
                             <constraint firstItem="S2v-p2-gqb" firstAttribute="leading" secondItem="74O-3b-rhL" secondAttribute="leading" id="RE1-hL-J9O"/>
                             <constraint firstItem="S2v-p2-gqb" firstAttribute="trailing" secondItem="74O-3b-rhL" secondAttribute="trailing" id="UQk-7j-A6D"/>
+                            <constraint firstItem="1F3-zz-R9A" firstAttribute="trailing" secondItem="74O-3b-rhL" secondAttribute="trailing" id="Uv6-y9-v30"/>
+                            <constraint firstItem="1F3-zz-R9A" firstAttribute="bottom" secondItem="74O-3b-rhL" secondAttribute="bottom" id="bO8-ih-lce"/>
+                            <constraint firstItem="ses-cJ-cHA" firstAttribute="top" secondItem="74O-3b-rhL" secondAttribute="top" constant="20" id="dQw-hY-2og"/>
+                            <constraint firstItem="ses-cJ-cHA" firstAttribute="leading" secondItem="74O-3b-rhL" secondAttribute="leading" constant="20" id="irS-6s-cM7"/>
+                            <constraint firstItem="1F3-zz-R9A" firstAttribute="leading" secondItem="74O-3b-rhL" secondAttribute="leading" id="l0t-rL-H2L"/>
+                            <constraint firstItem="1F3-zz-R9A" firstAttribute="top" secondItem="ses-cJ-cHA" secondAttribute="bottom" constant="30" id="trs-hH-jMY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="74O-3b-rhL"/>
                     </view>
                     <connections>
                         <outlet property="sceneView" destination="S2v-p2-gqb" id="9a9-ed-Kwz"/>
+                        <outlet property="tapView" destination="1F3-zz-R9A" id="g88-8I-TpV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNf-iV-hvH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128" y="134"/>
+            <point key="canvasLocation" x="127.53623188405798" y="133.92857142857142"/>
         </scene>
     </scenes>
 </document>

@@ -20,7 +20,6 @@
 		8728D687227DDCF00074C1C6 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728D686227DDCF00074C1C6 /* Comment.swift */; };
 		8728D68D227E23440074C1C6 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8728D68C227E23440074C1C6 /* DetailViewController.storyboard */; };
 		8728D68F227E28370074C1C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728D68E227E28370074C1C6 /* DetailViewController.swift */; };
-		8728D691227E4B120074C1C6 /* ARExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728D690227E4B120074C1C6 /* ARExtensions.swift */; };
 		8728D698227E5C740074C1C6 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728D697227E5C740074C1C6 /* TodayViewController.swift */; };
 		8728D69A227E5C800074C1C6 /* TodayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8728D699227E5C800074C1C6 /* TodayViewController.storyboard */; };
 		8728D69C227E5C900074C1C6 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 8728D695227E58E60074C1C6 /* car.dae */; };
@@ -30,6 +29,11 @@
 		8728D6A4227E652C0074C1C6 /* WatchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8728D6A3227E652C0074C1C6 /* WatchViewController.storyboard */; };
 		8728D6A7227E6A1F0074C1C6 /* ProposalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728D6A6227E6A1F0074C1C6 /* ProposalViewController.swift */; };
 		8728D6A9227E6A270074C1C6 /* ProposalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8728D6A8227E6A270074C1C6 /* ProposalViewController.storyboard */; };
+		8728D6C1227E832B0074C1C6 /* Nimbasa City.dae in Resources */ = {isa = PBXBuildFile; fileRef = 8728D6C0227E832B0074C1C6 /* Nimbasa City.dae */; };
+		87319FFA227E9C4C0053BCDD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87319FF9227E9C4B0053BCDD /* MapViewController.swift */; };
+		87319FFC227E9C580053BCDD /* MapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87319FFB227E9C580053BCDD /* MapViewController.storyboard */; };
+		87961494227EC7EB009EBE91 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87961493227EC7EB009EBE91 /* MeViewController.swift */; };
+		87961496227EC7FA009EBE91 /* MeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87961495227EC7FA009EBE91 /* MeViewController.storyboard */; };
 		87BD6633227DA63200FC1AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD6632227DA63200FC1AA8 /* AppDelegate.swift */; };
 		87BD663A227DA63300FC1AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BD6639227DA63300FC1AA8 /* Assets.xcassets */; };
 		87BD663D227DA63300FC1AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BD663B227DA63300FC1AA8 /* LaunchScreen.storyboard */; };
@@ -58,7 +62,6 @@
 		8728D689227E17080074C1C6 /* CrowdPower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrowdPower.entitlements; sourceTree = "<group>"; };
 		8728D68C227E23440074C1C6 /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		8728D68E227E28370074C1C6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		8728D690227E4B120074C1C6 /* ARExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExtensions.swift; sourceTree = "<group>"; };
 		8728D694227E58E30074C1C6 /* paperPlane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = paperPlane.scn; sourceTree = "<group>"; };
 		8728D695227E58E60074C1C6 /* car.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
 		8728D697227E5C740074C1C6 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +72,11 @@
 		8728D6A3227E652C0074C1C6 /* WatchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WatchViewController.storyboard; sourceTree = "<group>"; };
 		8728D6A6227E6A1F0074C1C6 /* ProposalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalViewController.swift; sourceTree = "<group>"; };
 		8728D6A8227E6A270074C1C6 /* ProposalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProposalViewController.storyboard; sourceTree = "<group>"; };
+		8728D6C0227E832B0074C1C6 /* Nimbasa City.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "Nimbasa City.dae"; sourceTree = "<group>"; };
+		87319FF9227E9C4B0053BCDD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		87319FFB227E9C580053BCDD /* MapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapViewController.storyboard; sourceTree = "<group>"; };
+		87961493227EC7EB009EBE91 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		87961495227EC7FA009EBE91 /* MeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeViewController.storyboard; sourceTree = "<group>"; };
 		87BD662F227DA63200FC1AA8 /* CrowdPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BD6632227DA63200FC1AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87BD6639227DA63300FC1AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,6 +163,7 @@
 		8728D696227E59A30074C1C6 /* 3D Objects */ = {
 			isa = PBXGroup;
 			children = (
+				8728D6C0227E832B0074C1C6 /* Nimbasa City.dae */,
 				8728D695227E58E60074C1C6 /* car.dae */,
 				8728D694227E58E30074C1C6 /* paperPlane.scn */,
 			);
@@ -190,6 +199,24 @@
 			path = Proposal;
 			sourceTree = "<group>";
 		};
+		87319FFD227E9C5E0053BCDD /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				87319FF9227E9C4B0053BCDD /* MapViewController.swift */,
+				87319FFB227E9C580053BCDD /* MapViewController.storyboard */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		87961497227EC802009EBE91 /* ME */ = {
+			isa = PBXGroup;
+			children = (
+				87961493227EC7EB009EBE91 /* MeViewController.swift */,
+				87961495227EC7FA009EBE91 /* MeViewController.storyboard */,
+			);
+			path = ME;
+			sourceTree = "<group>";
+		};
 		87BD6626227DA63200FC1AA8 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				8728D689227E17080074C1C6 /* CrowdPower.entitlements */,
+				87961497227EC802009EBE91 /* ME */,
 				8728D688227DE1F90074C1C6 /* Detail */,
 				8728D673227DCC040074C1C6 /* BillCell */,
 				87BD664C227DA71D00FC1AA8 /* TabBar */,
@@ -224,6 +252,7 @@
 				8728D6A5227E65320074C1C6 /* Watch */,
 				8728D69B227E5C870074C1C6 /* Today */,
 				8728D6AA227E6A300074C1C6 /* Proposal */,
+				87319FFD227E9C5E0053BCDD /* Map */,
 			);
 			path = CrowdPower;
 			sourceTree = "<group>";
@@ -244,7 +273,6 @@
 				8728D696227E59A30074C1C6 /* 3D Objects */,
 				87BD664D227DBA1B00FC1AA8 /* ARViewController.swift */,
 				87BD664F227DBA2B00FC1AA8 /* ARViewController.storyboard */,
-				8728D690227E4B120074C1C6 /* ARExtensions.swift */,
 			);
 			path = AR;
 			sourceTree = "<group>";
@@ -346,12 +374,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8728D6C1227E832B0074C1C6 /* Nimbasa City.dae in Resources */,
 				8728D69C227E5C900074C1C6 /* car.dae in Resources */,
 				8728D68D227E23440074C1C6 /* DetailViewController.storyboard in Resources */,
 				87BD663D227DA63300FC1AA8 /* LaunchScreen.storyboard in Resources */,
 				8728D671227DC8DF0074C1C6 /* DiscoveryViewController.storyboard in Resources */,
 				8728D69A227E5C800074C1C6 /* TodayViewController.storyboard in Resources */,
+				87319FFC227E9C580053BCDD /* MapViewController.storyboard in Resources */,
 				8728D6A4227E652C0074C1C6 /* WatchViewController.storyboard in Resources */,
+				87961496227EC7FA009EBE91 /* MeViewController.storyboard in Resources */,
 				8728D6A0227E5FE10074C1C6 /* WatchCell.xib in Resources */,
 				8728D677227DCC2A0074C1C6 /* BillCell.xib in Resources */,
 				87BD6650227DBA2B00FC1AA8 /* ARViewController.storyboard in Resources */,
@@ -477,13 +508,14 @@
 				8728D685227DDC000074C1C6 /* Response.swift in Sources */,
 				8728D68F227E28370074C1C6 /* DetailViewController.swift in Sources */,
 				8728D676227DCC2A0074C1C6 /* BillCell.swift in Sources */,
+				87961494227EC7EB009EBE91 /* MeViewController.swift in Sources */,
 				8728D682227DD59F0074C1C6 /* Constants.swift in Sources */,
+				87319FFA227E9C4C0053BCDD /* MapViewController.swift in Sources */,
 				8728D698227E5C740074C1C6 /* TodayViewController.swift in Sources */,
 				87BD6633227DA63200FC1AA8 /* AppDelegate.swift in Sources */,
 				8728D687227DDCF00074C1C6 /* Comment.swift in Sources */,
 				87BD664E227DBA1C00FC1AA8 /* ARViewController.swift in Sources */,
 				8728D67B227DCD1C0074C1C6 /* NavigationViewController.swift in Sources */,
-				8728D691227E4B120074C1C6 /* ARExtensions.swift in Sources */,
 				8728D67E227DCE430074C1C6 /* TableView.swift in Sources */,
 				87BD6653227DBBD500FC1AA8 /* Storyboard.swift in Sources */,
 			);

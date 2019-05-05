@@ -74,7 +74,7 @@ extension TabBarItemType {
             return UIImage(named: "watch_on")
         case .me:
             
-            return UIImage(named: "watch_on")
+            return UIImage(named: "me_on")
         }
     }
 }

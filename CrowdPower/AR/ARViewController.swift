@@ -13,34 +13,45 @@ class ARViewController: UIViewController, StoryboardInit {
     
     @IBOutlet weak var sceneView: ARSCNView!
     
+    @IBOutlet weak var tapView: UIView!
+    @IBAction func tapCloseButton(_ sender: Any) {
+        
+        navigationController?.popViewController(animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(tapOnView))
+        tapView.addGestureRecognizer(tapGesture)
+
         configureLighting()
-        //        addPaperPlane()
         addCar()
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
         super.viewWillAppear(animated)
+        
         let configuration = ARWorldTrackingConfiguration()
+        
         sceneView.session.run(configuration)
         
+        navigationController?.navigationBar.isHidden = true
     }
     
     override func viewWillDisappear(_ animated: Bool) {
+       
         super.viewWillDisappear(animated)
+        
         sceneView.session.pause()
+        
+        navigationController?.navigationBar.isHidden = false
     }
     
-    func addPaperPlane(x: Float = 0, y: Float = 0, z: Float = -0.5) {
-        guard
-            let paperPlaneScene = SCNScene(named: "paperPlane.scn"),
-            let paperPlaneNode = paperPlaneScene.rootNode.childNode(withName: "paperPlane", recursively: true)
-        else {
-            return
-        }
-        paperPlaneNode.position = SCNVector3(x, y, z)
-        sceneView.scene.rootNode.addChildNode(paperPlaneNode)
+    @objc func tapOnView() {
+        
+        present(DetailViewController.storyboardInit(), animated: true)
     }
     
     func configureLighting() {

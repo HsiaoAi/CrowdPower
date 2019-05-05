@@ -66,16 +66,17 @@ private extension TabBarController {
         case .watch:
             
             let watchViewController = NavigationViewController(rootViewController: WatchViewController.storyboardInit()) 
+            
             watchViewController.tabBarItem = tabBarItem
             
             return watchViewController
         case .me:
             
-            let arViewController = NavigationViewController(rootViewController: ARViewController.storyboardInit())
+            let meViewController = NavigationViewController(rootViewController: MeViewController.storyboardInit())
             
-            arViewController.tabBarItem = tabBarItem
+            meViewController.tabBarItem = tabBarItem
             
-            return arViewController
+            return meViewController
         }
     }
     

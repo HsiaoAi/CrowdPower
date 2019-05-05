@@ -11,6 +11,8 @@ import UIKit
 class ProposalViewController: UIViewController, StoryboardInit {
     
     @IBOutlet weak var imageView: UIImageView!
+    
+    
 
     @IBOutlet weak var continueBtn: UIButton!
     @IBAction func tapCloseButton(_ sender: Any) {

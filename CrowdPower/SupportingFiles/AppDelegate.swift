@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
         // Create the trigger as a repeating event.
         let trigger = UNCalendarNotificationTrigger(
-            dateMatching: DateComponents(day: 4, hour: 22, minute: 56), repeats: false)
+            dateMatching: DateComponents(day: 5, hour: 8, minute: 2), repeats: true)
         
         // Create the request
         let uuidString = UUID().uuidString

@@ -12,6 +12,7 @@ class WatchCell: UICollectionViewCell {
 
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var view: UIView!
+    @IBOutlet weak var barView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -29,5 +30,16 @@ class WatchCell: UICollectionViewCell {
         photoImageView.layer.cornerRadius = 6
         photoImageView.clipsToBounds = false
         photoImageView.layer.masksToBounds = true
+    }
+    
+    func setup(_ image: UIImage?) {
+        
+        photoImageView.image = image
+    }
+        
+    func updateBarView(isHidden: Bool, color: UIColor) {
+        
+        barView.isHidden = isHidden
+        barView.backgroundColor = color
     }
 }
