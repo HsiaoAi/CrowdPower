@@ -34,6 +34,7 @@
 		87319FFC227E9C580053BCDD /* MapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87319FFB227E9C580053BCDD /* MapViewController.storyboard */; };
 		87961494227EC7EB009EBE91 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87961493227EC7EB009EBE91 /* MeViewController.swift */; };
 		87961496227EC7FA009EBE91 /* MeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87961495227EC7FA009EBE91 /* MeViewController.storyboard */; };
+		8796149B227ED2F8009EBE91 /* Untitled.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8796149A227ED2F8009EBE91 /* Untitled.mp4 */; };
 		87BD6633227DA63200FC1AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD6632227DA63200FC1AA8 /* AppDelegate.swift */; };
 		87BD663A227DA63300FC1AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BD6639227DA63300FC1AA8 /* Assets.xcassets */; };
 		87BD663D227DA63300FC1AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BD663B227DA63300FC1AA8 /* LaunchScreen.storyboard */; };
@@ -77,6 +78,7 @@
 		87319FFB227E9C580053BCDD /* MapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapViewController.storyboard; sourceTree = "<group>"; };
 		87961493227EC7EB009EBE91 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		87961495227EC7FA009EBE91 /* MeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeViewController.storyboard; sourceTree = "<group>"; };
+		8796149A227ED2F8009EBE91 /* Untitled.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Untitled.mp4; path = ../../../../Desktop/Untitled.mp4; sourceTree = "<group>"; };
 		87BD662F227DA63200FC1AA8 /* CrowdPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BD6632227DA63200FC1AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87BD6639227DA63300FC1AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 		87BD6657227DBF5A00FC1AA8 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				8796149A227ED2F8009EBE91 /* Untitled.mp4 */,
 				87BD6632227DA63200FC1AA8 /* AppDelegate.swift */,
 				87BD6639227DA63300FC1AA8 /* Assets.xcassets */,
 				87BD663B227DA63300FC1AA8 /* LaunchScreen.storyboard */,
@@ -379,6 +382,7 @@
 				8728D68D227E23440074C1C6 /* DetailViewController.storyboard in Resources */,
 				87BD663D227DA63300FC1AA8 /* LaunchScreen.storyboard in Resources */,
 				8728D671227DC8DF0074C1C6 /* DiscoveryViewController.storyboard in Resources */,
+				8796149B227ED2F8009EBE91 /* Untitled.mp4 in Resources */,
 				8728D69A227E5C800074C1C6 /* TodayViewController.storyboard in Resources */,
 				87319FFC227E9C580053BCDD /* MapViewController.storyboard in Resources */,
 				8728D6A4227E652C0074C1C6 /* WatchViewController.storyboard in Resources */,
